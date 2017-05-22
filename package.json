@@ -1,0 +1,12 @@
+{
+	"name":"Ghostrap",
+	"version":"1.0.0",
+	"description":"A Ghost theme based on Bootstrap",
+	"url":"http://www.ropeal.com",
+	"copyright":"2017",
+	"author":{
+		"name":"Peter Luo",
+		"email":"ropeal@163.com",
+		"url":"http://www.ropeal.com"
+	}
+}

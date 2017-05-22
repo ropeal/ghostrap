@@ -1,0 +1,21 @@
+{{!< default}}
+
+ <div class="row">
+  <div class="col-lg-9 col-md-9 col-xs-12 col-ms-12">
+    <section>
+      {{#foreach posts}}
+        {{> post/list this}}
+      {{/foreach}}
+    </section>
+
+    {{#if pagination}}
+      {{pagination}}
+    {{/if}}   
+  </div>
+  <div class="col-lg-3 col-md-3 hidden-xs hidden-ms">
+    {{> sidebar/author-info}}
+    {{> sidebar/tag-cloud}}
+    {{> sidebar/links}}
+  </div>
+ </div>
+
